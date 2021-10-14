@@ -9,9 +9,9 @@ const App = () => {
       </header>
 
       <div className="cards">
-            {/* {data.map((item)=>(
-              <Card key={item.char_id} item={item.name} />
-            ))} */}
+            {data.map((item)=>(
+              <Cards key={item.char_id} item={item.name} />
+            ))}
             <Cards/>
       </div>
       
