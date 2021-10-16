@@ -5,9 +5,9 @@ import Cards from "./components/Cards";
 const App = () => {
   const[itemList, setItemList] = useState([]);
   useEffect(() =>{
-    // fetch('https://breakingbadapi.com/api/characters')
-    // .then(response=> response.json())
-    // .then((data)=>setItemList(data))
+    fetch('https://breakingbadapi.com/api/characters')
+    .then(response=> response.json())
+    .then((data)=>setItemList(data))
   },[])
   return (
     <div className="App">
