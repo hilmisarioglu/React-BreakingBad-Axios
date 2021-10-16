@@ -1,24 +1,30 @@
-import Cards from './components/Cards';
-import data from './data.json'
+import React,{useState,useEffect} from 'react'
+import Cards from "./components/Cards";
+// import data from "./data.json";
 
 const App = () => {
-    <div className = 'App'>
-      <>
-        <img src = 'https://cdn.tekzen.com.tr/images/product/decowall/2814614/decowall-duvar-kagidi-beyaz-tugla-desenli-k-9007-02_1000x1000.jpg' alt="Breaking Bad "/>
-      </  >
-    </div>  
+  const[itemList, setItemList] = useState([]);
+  useEffect(() =>{
+    // fetch('https://breakingbadapi.com/api/characters')
+    // .then(response=> response.json())
+    // .then((data)=>setItemList(data))
+  },[])
   return (
+    <div className="App">
+      <header>
+        <img className='App_img'
+          src="https://i.pinimg.com/originals/d3/bb/d0/d3bbd00fc97e601c6dabca395af2e7f6.png"
+          alt="logo"
+        />
+      </header>
 
-      <div className="cards">
-            {data.map((item)=>(
-              <Cards key ={item.char_id} item={item} />
-            ))}
-            <Cards/>
-    
+      <div className="container">
+        {itemList.map((item) => (
+          <Cards key={item.char_id} item={item} />
+        ))}
       </div>
-      
-    
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;

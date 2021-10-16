@@ -21,51 +21,7 @@
         "category": "Breaking Bad",
         "better_call_saul_appearance": []
     },
-    {
-        "char_id": 2,
-        "name": "Jesse Pinkman",
-        "birthday": "09-24-1984",
-        "occupation": [
-            "Meth Dealer"
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Jesse_Pinkman2.jpg/220px-Jesse_Pinkman2.jpg",
-        "status": "Alive",
-        "nickname": "Cap n' Cook",
-        "appearance": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "portrayed": "Aaron Paul",
-        "category": "Breaking Bad",
-        "better_call_saul_appearance": []
-    },
-    {
-        "char_id": 3,
-        "name": "Skyler White",
-        "birthday": "08-11-1970",
-        "occupation": [
-            "House wife",
-            "Book Keeper",
-            "Car Wash Manager",
-            "Taxi Dispatcher"
-        ],
-        "img": "https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg",
-        "status": "Alive",
-        "nickname": "Sky",
-        "appearance": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "portrayed": "Anna Gunn",
-        "category": "Breaking Bad",
-        "better_call_saul_appearance": []
-    },
+   
     {
         "char_id": 4,
         "name": "Walter White Jr.",
@@ -87,27 +43,7 @@
         "category": "Breaking Bad",
         "better_call_saul_appearance": []
     },
-    {
-        "char_id": 5,
-        "name": "Henry Schrader",
-        "birthday": "Unknown",
-        "occupation": [
-            "DEA Agent"
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Hank_Schrader2.jpg/220px-Hank_Schrader2.jpg",
-        "status": "Deceased",
-        "nickname": "Hank",
-        "appearance": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "portrayed": "Dean Norris",
-        "category": "Breaking Bad",
-        "better_call_saul_appearance": []
-    },
+
     {
         "char_id": 6,
         "name": "Marie Schrader",
