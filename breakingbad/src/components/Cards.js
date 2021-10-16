@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 const Cards = ({ item }) => {
-  console.log(item);
+  // console.log(item);
   return (
     <div className="card">
         <img src={item?.img} alt='info' />
